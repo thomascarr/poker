@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jacks or Better</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div id="container">
+
+		<p id="creditsText"></p>
+		
+		<img onclick="selectCard(1)" id="cardImage1" src="images/BACK.png" draggable="false">
+		<img onclick="selectCard(2)" id="cardImage2" src="images/BACK.png" draggable="false">
+		<img onclick="selectCard(3)" id="cardImage3" src="images/BACK.png" draggable="false">
+		<img onclick="selectCard(4)" id="cardImage4" src="images/BACK.png" draggable="false">
+		<img onclick="selectCard(5)" id="cardImage5" src="images/BACK.png" draggable="false">
+
+		<p><button id = "dealButton" onclick="dealCards()">Deal</button></p>
+		<p id="handText"></p>
+
+	</div>
+
+	<script src="index.js"></script>
+	
+</body>
+</html>
